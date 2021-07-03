@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+    <link rel="stylesheet" href="sorteio.css">
+</head>
+<body>
+<section>
+    <header>
+        <h1>Sorteio</h1>
+        <h2>por Alan Douglas A Souza</h2>
+
+    </header>
+    <article id="corpo">
+        <div id="nomes">
+            <p>Adicione os nomes que deseja sortear</br>
+            <input type="text" name="nNome" id="cnome" size="40" placeholder="Nomes para o sorteio"> <input id="bt" type="button" value="Adicionar" onclick="adicionar()"></p>
+        </div id="lista">
+            <p><select name="nList" id="list" size="10">
+                
+          </select></p>
+          <p><input id="sortear" type="button" value="SORTEAR" onclick="sortear()"></p>
+          <div id="res">
+            
+        </div>
+    </article>
+</section>
+    <footer>
+        <p id="rodap">&copy;AlanDouglasASouza</p>
+    </footer>
+
+<script src="sorteio.js"></script>
+</body>
+</html>
